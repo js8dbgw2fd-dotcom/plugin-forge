@@ -1,0 +1,17 @@
+{
+  "name": "plugin-forge-chatgpt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A ChatGPT-native plugin builder that creates installable Agent Plugin starter packages.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "express": "^5.1.0",
+    "zod": "^4.1.13",
+    "@modelcontextprotocol/ext-apps": "^1.0.1"
+  }
+}

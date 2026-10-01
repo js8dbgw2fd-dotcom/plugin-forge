@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { createPluginPackage } from "../src/generator.js";
+import { createPluginPackage } from "./generator.js";
 
 test("creates a skill-only package with a safe slug", () => {
   const pkg = createPluginPackage({ name: "Café Helper", description: "Helps users.", goal: "Help users", workflow: "Ask first", includesMcp: false });
